@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-slate-900 text-slate-100 font-sans;}
+.bg-stadium{background:#0F172A url('azi.jpg') center/cover fixed no-repeat;min-height:100vh}
+.glass{@apply bg-slate-900/70 backdrop-blur-md border border-emerald-300/15 rounded-2xl shadow-lg shadow-black/30 transition;}
+button.glass:hover:not(:disabled){@apply border-amber-300/50;}
+.num{@apply font-mono tabular-nums;}
+.inp{@apply w-full rounded-xl bg-slate-800/80 border border-white/10 px-3 py-2 focus:outline-none focus:border-emerald-400;}
